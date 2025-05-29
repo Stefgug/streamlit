@@ -8,7 +8,7 @@ def search_giphy(query):
   params = {
     "api_key": st.secrets['api_giphy'],
     "q": query,
-    "limit": 5
+    "limit": 1
   }
 
   response = requests.get(url, params=params)
