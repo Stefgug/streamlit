@@ -22,3 +22,4 @@ line_count = st.slider('Select a line count', 1, 10, 3)
 head_df = df.head(line_count)
 
 head_df
+
