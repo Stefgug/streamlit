@@ -27,5 +27,6 @@ if search_term:
     for gif in results["data"]:
       gif_url = gif["images"]["fixed_height"]["url"]
       st.image(gif_url, caption=gif["title"])
+      print('Un gif a été affiché')
   else:
     st.write("No GIFs found for your search term.")
