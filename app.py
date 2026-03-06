@@ -5,8 +5,7 @@ import pandas as pd
 
 st.markdown("""# Hello, it's me!!
 ## This is a sub header
-This is text.
-Je suis dans le cloud""")
+This is text.""")
 
 df = pd.DataFrame({
     'first column': list(range(1, 11)),
